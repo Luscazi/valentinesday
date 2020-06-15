@@ -102,3 +102,27 @@ body, html {
     width: 45px;
     height: 45px;
 }
+
+/* DIV PARA TEXTO */
+
+.vd-text {
+    position: relative;
+    top: 111px;
+    left: 60px;
+    font-size: 11px;
+    color: #eee;
+}
+
+.vd-text .vd-obrigado {
+    position: absolute;
+    z-index: 1;
+    margin-top: 28px;
+    margin-left: 50px;
+}
+
+.vd-text .vd-euteamo {
+    position: absolute;
+    z-index: 1;
+    margin-top: 125px;
+    margin-left: 123px;
+}
