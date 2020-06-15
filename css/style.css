@@ -92,6 +92,7 @@ body, html {
 /* DIV PARA MUSICAS */
 
 .vd-musics {
+    margin-top: 56px;
     float: none;
     position: absolute;
     width: 45px;
