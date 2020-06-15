@@ -11,6 +11,7 @@ body, html {
     height: 100%;
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
     background: rgb(0,0,0);
     background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 40%, rgba(255,141,141,1) 100%);
     background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 40%, rgba(255,141,141,1) 100%);
@@ -18,4 +19,37 @@ body, html {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ff8d8d",GradientType=1);
     
 }
+.vd-capa img{
+   position: relative;
+    width: 190px;
+    height: 190px;
+    margin-top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-box-shadow: 0px 0px 100px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 100px -20px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 100px -20px rgba(0,0,0,0.75);
+}
+
+.vd-titulo p {
+    color: #eee;
+    font-size: 18px;
+    margin-left: 36px;
+    margin-top: 25px;
+}
+
+.vd-user img {
+    position: relative;
+    margin-left: 36px;
+    margin-top: 31px;
+    border-radius: 100%;
+}
+
+.vd-user p {
+    color: #eee;
+    font-size: 8px;
+    margin-left: 56px;
+}
+
+
 
