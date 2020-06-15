@@ -24,6 +24,12 @@ body, html {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020202",endColorstr="#ff8d8d",GradientType=1);
 }
 
+.vd-seta img {
+    position: relative;
+    top: 55px;
+    left: 31px;
+}
+
 .vd-capa img{
    position: relative;
     width: 190px;
