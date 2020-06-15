@@ -83,3 +83,25 @@ body, html {
     margin-top: 12px;
     margin-right: 52px;
 }
+
+.vd-save a {
+    position: absolute;
+    font-size: 12px;
+    margin-top: 34px;
+    z-index: 1;
+    color: #eee;
+    text-decoration: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vd-save img {
+    position: absolute;
+    width: 100px;
+    height: 23px;
+    margin-top: 34px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
