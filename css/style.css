@@ -76,3 +76,10 @@ body, html {
     color: #eee;
     font-size: 10px;
 }
+
+.vd-play img {
+    position: absolute;
+    right: 0;
+    margin-top: 12px;
+    margin-right: 52px;
+}
