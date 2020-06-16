@@ -9,11 +9,16 @@
 body, html {
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     background-color: #000;
+    overflow-x: hidden;
+    background: rgb(2,2,2);
+    background: -moz-linear-gradient(0deg, rgba(2,2,2,1) 0%, rgba(2,2,2,1) 24%, rgba(255,141,141,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(2,2,2,1) 0%, rgba(2,2,2,1) 24%, rgba(255,141,141,1) 100%);
+    background: linear-gradient(0deg, rgba(2,2,2,1) 0%, rgba(2,2,2,1) 24%, rgba(255,141,141,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020202",endColorstr="#ff8d8d",GradientType=1);
 }
 
 p {
@@ -22,14 +27,6 @@ p {
 
 a {
     color: #eee;
-}
-
-#conteudo {
-    background: rgb(2,2,2);
-    background: -moz-linear-gradient(0deg, rgba(2,2,2,1) 0%, rgba(2,2,2,1) 24%, rgba(255,141,141,1) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(2,2,2,1) 0%, rgba(2,2,2,1) 24%, rgba(255,141,141,1) 100%);
-    background: linear-gradient(0deg, rgba(2,2,2,1) 0%, rgba(2,2,2,1) 24%, rgba(255,141,141,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020202",endColorstr="#ff8d8d",GradientType=1);
 }
 
 .vd-seta img {
