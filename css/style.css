@@ -118,56 +118,87 @@ a {
     z-index: 100;
     width: auto;
     position: absolute;
-    margin-left: 10px;
-    top: 400px;
+    margin-left: 20px;
+    top: 430px;
 }
 
 .musicaimg {
-    width: 50px;
-    height: 50px;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: 10px;
+}
+
+.musicaimg2 {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: -9px;
+}
+
+.musicaimg3 {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: -28px;
+}
+
+.musicaimg4 {
+    position: relative;
+    top: -47px;
+    width: 45px;
+    height: 45px;
 }
 
 .musicname {
     font-size: 11px;
 }
 
-.names, .nameauthor {
+.names .nameauthor {
     font-size: 10px;
+    margin-left: 10px;
+    color: #979797;
 }
 
 .names {
     position: relative;
-    top: 40px;
+    top: 45px;
     left: 60px;
 }
 
-.names2, .nameauthor {
+.names2 .nameauthor {
     font-size: 10px;
+    margin-left: 10px;
+    color: #979797;
 }
 
 .names2 {
     position: relative;
-    top: 40px;
+    top: 30px;
     left: 60px;
 }
 
-.names3, .nameauthor {
+.names3 .nameauthor {
     font-size: 10px;
+    margin-left: 10px;
+    color: #979797;
 }
 
 .names3 {
     position: relative;
-    top: 40px;
+    top: 10px;
     left: 60px;
 }
 
-.names4, .nameauthor {
+.names4 .nameauthor {
     font-size: 9px;
+    margin-left: 10px;
+    color: #979797;
 }
 
 .names4 {
     position: relative;
-    top: 40px;
+    top: -10px;
     left: 60px;
 }
 
@@ -175,8 +206,8 @@ a {
 
 .vd-text {
     position: relative;
-    top: 111px;
-    left: 115px;
+    top: 150px;
+    left: 160px;
     font-size: 11px;
     color: #eee;
 }
