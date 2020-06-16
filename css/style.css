@@ -74,6 +74,7 @@ a {
     margin-left: 36px;
     border-radius: 100%;
     float: left;
+    background-color: red;
 }
 
 .vd-user p {
