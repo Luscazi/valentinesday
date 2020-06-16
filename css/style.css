@@ -16,6 +16,14 @@ body, html {
     background-color: #000;
 }
 
+p {
+    color: #eee;
+}
+
+a {
+    color: #eee;
+}
+
 #conteudo {
     background: rgb(2,2,2);
     background: -moz-linear-gradient(0deg, rgba(2,2,2,1) 0%, rgba(2,2,2,1) 24%, rgba(255,141,141,1) 100%);
@@ -95,23 +103,64 @@ body, html {
     margin-right: 52px;
 }
 
-/* DIV PARA MUSICAS */
+/* DIV PARA MUSICAS IMPORTADA */
 
-.vd-musics {
-    margin-top: 56px;
-    float: none;
+#musicas {
+    height: auto;
+    z-index: 100;
+    width: auto;
     position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 60%;
-    left: 20px;
-    transform: translate(-60%, );
+    margin-left: 10px;
+    top: 350px;
 }
 
-.vd-musics img {
-    padding-top: 14px;
-    width: 45px;
-    height: 45px;
+.musicaimg {
+    width: 50px;
+    height: 50px;
+}
+
+.musicname {
+    font-size: 11px;
+}
+
+.names, .nameauthor {
+    font-size: 10px;
+}
+
+.names {
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+
+.names2, .nameauthor {
+    font-size: 10px;
+}
+
+.names2 {
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+
+.names3, .nameauthor {
+    font-size: 10px;
+}
+
+.names3 {
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+
+.names4, .nameauthor {
+    font-size: 9px;
+}
+
+.names4 {
+    position: relative;
+    top: 40px;
+    left: 60px;
 }
 
 /* DIV PARA TEXTO */
