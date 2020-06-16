@@ -37,6 +37,7 @@ h1 {
 
 
 .myButton {
+    z-index: 1;
     top: 65%;
     left: 10%;
     position: fixed;
@@ -56,6 +57,7 @@ h1 {
 }
 
 .myButtonn {
+    z-index: 1;
     top: 65%;
     left: 55%;
     position: fixed;
